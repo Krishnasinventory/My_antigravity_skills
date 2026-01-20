@@ -1,0 +1,15 @@
+### Plan: [Change Description]
+- [ ] **Design**: Update System Flow doc if architecture changes.
+- [ ] **Files to Change** (List BEFORE editing):
+    - [ ] `src/model.py`: Change attention mechanism.
+    - [ ] `src/train.py`: Update logging.
+- [ ] **Implementation**:
+    - [ ] Edit `src/model.py`
+    - [ ] Edit `src/train.py`
+- [ ] **Documentation Update**:
+    - [ ] Update Logic Diagram in `src/model.py`
+    - [ ] Update File Card for `src/model.py`
+    - [ ] Update File Card for `src/train.py`
+    - [ ] Record "Before -> After" in Change Log.
+- [ ] **Verification**:
+    - [ ] Run test command: `python tests/test_model.py`
