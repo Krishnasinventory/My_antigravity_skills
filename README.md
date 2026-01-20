@@ -29,3 +29,18 @@ When communicating with the agent, you can trigger this skill by saying:
 - **Run Logging**: Ensures every experiment is saved to `runs/<id>/`.
 
 To customize it, check the `UPDATING_THIS_SKILL.md` file inside the folder.
+
+## Troubleshooting: `superpowers` folder
+**Note**: The `skills/superpowers` folder might be empty or incomplete because it is a nested repository. To ensure you have all the superpowers:
+1.  Navigate to the `skills/` folder in your terminal.
+2.  Clone the repository manually:
+    ```bash
+    git clone https://github.com/obra/superpowers.git
+    ```
+
+## How to Create New Skills
+To create a new skill that follows the Antigravity best practices, simply ask the agent using this template:
+
+> "Based on my skill creator instructions in `skills/antigravity-skill-creator.md`, build me a skill for **[Task, e.g., 'automating React component testing with Vitest']**."
+
+The agent will read the standards and generate a clean, structured skill folder for you.
